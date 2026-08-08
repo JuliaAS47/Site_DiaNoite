@@ -1,0 +1,47 @@
+
+:root {
+    --blue: #141A70;
+    --yellow: #FA9C38;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+.dark-theme{
+    --background-color: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--yellow);
+    --btnFontColor: var(--black);
+}
+
+.light-theme{
+    --background-color: var(--yellow);
+    --fontColor: var(--black);
+    --btnBg: var(--blue);
+    --btnFontColor: var(--white);
+}
+body {
+    background-color: var(--background-color);
+    color: var(--fontColor);
+}
+h2 {
+    position:absolute;
+    top: 40px;
+    left:120px;
+}
+
+.botao {
+    position:absolute;
+    top:150px;
+    left:120px;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:none;
+    color:var(--btnFontColor);
+    background-color:var(--btnBg);
+    cursor: pointer;
+}
+
+
+
+
